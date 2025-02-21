@@ -76,6 +76,9 @@
         width: 15%;
         padding: 0;
     }
+    .team:hover{
+        width:53%;
+    }
 }
 
 @media (max-width:360px) {
@@ -83,8 +86,11 @@
         height: 70px;
         width: 63%
     }
-
+    .team:hover{
+        width:65%;
+    }
 }
+
 
 .calendar {
     font-family: "Urbanist", serif;
@@ -128,6 +134,9 @@
         width: 15%;
         padding: 0;
     }
+    .calendar:hover{
+        width:53%;
+    }
 }
 
 @media (max-width:360px) {
@@ -135,7 +144,9 @@
         height: 70px;
         width: 63%
     }
-
+    .calendar:hover{
+        width:65%;
+    }
 }
 
 .documentation {
@@ -180,6 +191,9 @@
         width: 15%;
         padding: 0;
     }
+    .documentation:hover{
+        width:53%;
+    }
 }
 
 @media (max-width:360px) {
@@ -187,7 +201,9 @@
         height: 70px;
         width: 63%
     }
-
+    .documentation:hover{
+        width:65%;
+    }
 }
 
 .setting {
@@ -232,12 +248,17 @@
         width: 15%;
         padding: 0;
     }
+    .setting:hover{
+        width:53%;
+    }
+}
 
     @media (max-width:360px) {
         .setting {
             height: 70px;
-            width: 63%
+            width: 63%;
         }
-
+        .setting:hover{
+            width:65%;
+        }
     }
-}

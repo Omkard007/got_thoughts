@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    font-family: "Urbanist", serif;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(212, 209, 209);
+    width: 100;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:480px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
+
+.team {
+    font-family: "Urbanist", serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(212, 209, 209);
+    width: 25%;
+    height: 110px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.team:hover {
+    width: 26%;
+}
+
+.team img {
+    padding: 10px;
+    width: 10%;
+}
+
+@media(max-width:480px) {
+    .team {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-family: "Urbanist", serif;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(212, 209, 209);
+        width: 50%;
+        height: 110px;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.2s;
+    }
+
+    .team img {
+        width: 15%;
+        padding: 0;
+    }
+}
+
+@media (max-width:360px) {
+    .team {
+        height: 70px;
+        width: 63%
+    }
+
+}
+
+.calendar {
+    font-family: "Urbanist", serif;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(212, 209, 209);
+    width: 25%;
+    height: 110px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.calendar:hover {
+    width: 26%;
+}
+
+.calendar img {
+    padding: 10px;
+    width: 10%;
+}
+
+@media(max-width:480px) {
+    .calendar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-family: "Urbanist", serif;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(212, 209, 209);
+        width: 50%;
+        height: 110px;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.2s;
+    }
+
+    .calendar img {
+        width: 15%;
+        padding: 0;
+    }
+}
+
+@media (max-width:360px) {
+    .calendar {
+        height: 70px;
+        width: 63%
+    }
+
+}
+
+.documentation {
+    font-family: "Urbanist", serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(212, 209, 209);
+    width: 25%;
+    height: 110px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.documentation:hover {
+    width: 26%;
+}
+
+.documentation img {
+    padding: 10px;
+    width: 10%;
+}
+
+@media(max-width:480px) {
+    .documentation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-family: "Urbanist", serif;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(212, 209, 209);
+        width: 50%;
+        height: 110px;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.2s;
+    }
+
+    .documentation img {
+        width: 15%;
+        padding: 0;
+    }
+}
+
+@media (max-width:360px) {
+    .documentation {
+        height: 70px;
+        width: 63%
+    }
+
+}
+
+.setting {
+    font-family: "Urbanist", serif;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgb(212, 209, 209);
+    width: 25%;
+    height: 110px;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.setting:hover {
+    width: 26%;
+}
+
+.setting img {
+    padding: 10px;
+    width: 10%;
+}
+
+@media(max-width:480px) {
+    .setting {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-family: "Urbanist", serif;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(212, 209, 209);
+        width: 50%;
+        height: 110px;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.2s;
+    }
+
+    .setting img {
+        width: 15%;
+        padding: 0;
+    }
+
+    @media (max-width:360px) {
+        .setting {
+            height: 70px;
+            width: 63%
+        }
+
+    }
+}
